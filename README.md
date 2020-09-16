@@ -12,14 +12,13 @@ After registration, you will recieve an email confirming your registration with 
 
 
 ## Login to jupyter server  
-To access the jupyter server, one can browse to the link: <a href="http://cmserver02.mpie.de" target="_top"> https://cmserver02.mpie.de </a>.
-
+To access the jupyter server, one can browse to the link: <a href="http://cmserver02.mpie.de" target="_top"> https://cmserver02.mpie.de </a>.  
 By entering your username and password, you will login to the server:
-
-After your login, you will be asked for your desired jupyter image.
-
+<img src="jupyterhub_login.png" alt="Login to Jupyterhub">  
+After your login, you will be asked for your desired jupyter image.  
+<img src="jupyterhub_image_selection.png" alt="Image selection">  
 At the moment, there are two images available: experimental image, Pyiron image.   
-TEM image includes pyrion, TEMMETA and pyprismatic packages, while the pyiron image includes the atomistic packages.
+The experimental image includes pyrion, TEMMETA, pyprismatic, and match-serie packages, while the pyiron image includes the atomistic packages.
 
 
 ## Users' resources  
