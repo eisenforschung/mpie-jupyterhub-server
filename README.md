@@ -31,10 +31,11 @@ Beside the access to the jupyter notebook via browser, users can connect to the 
 
 ## Data transfer   
 To transfer the data to the server and the jupyter notebook environment, there are mutilple ways, from which three are mentioned here.  
-1) Tranfering files via jupyter lab interface.    
+1) Tranfering files via jupyter lab interface.   
 <img src="jupyterlab_upload.png" alt="jupyterlab upload" height="300">  
-2) Transfering files from a cloud to the notebooks, via wget command. Given the `url` and the `path` to save the files, one can use the following command within jupyter notebook.    
-`import wget
-wget.download(url, out=path)
-`    
-3) One can also transfer the files via `scp` command. However, one should note that the jupyter notebook environment on this server is designed to access a specific path of user's home directory, which is `~/pyiron_workspace/`  
+To access the jupyterlab interface, instead of jupyter notebooks, you should replace the word tree with lab in your browser address bar.     
+
+2) Transfering files from a cloud to the notebooks, via wget command. Given the `url` and the `path` to save the files, one can use the following command within jupyter notebook.   
+`import wget`    
+`wget.download(url, out=path)`      
+3) One can also transfer the files via `scp` command. However, one should note that the jupyter notebook environment on this server is designed to access a specific path of user's home directory, which is `~/pyiron_workspace/`. Therefore, if you would like to access the data from your jupyter notebooks, you should place the data under this path.
