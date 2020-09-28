@@ -7,10 +7,7 @@ This server has the aim to give MPIE members access to jupyter notebooks from th
  **<a href="https://jupyter.org/" target="_top">Jupyter notebooks/lab</a>** are user-friendly tools to perform data analysis, visualization, simulation, etc **in your browser**. You can basically access a coding environment/command prompt. Via our server you will be able to analyze your experimental/simulation data in jupyter notebooks without the need to set up the environment, dependencies, etc. 
  
 ## Registration on the server  
-To register on the server, you can visit <a href="http://cmserver02.mpie.de:8866" target="_top">here</a> from the local network in MPIE. 
-After registration, you will receive an email confirming your registration with the require information.  
-<img src="registration.png" alt="registeration image" height="300" >
-
+To register on the server, please email the admin. Then the instruction including a one-time password will be sent to you via email.  
 ## Login to jupyter server  
 To access the jupyter server, one can browse to the link: <a href="http://cmserver02.mpie.de" target="_top"> https://cmserver02.mpie.de </a>.   
 By entering your username and password, you will log in to the server:  
