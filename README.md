@@ -10,7 +10,8 @@ This server has the aim to give MPIE members access to jupyter notebooks from th
 To register on the server, please email the admin. Then the instruction including a one-time password will be sent to you via email.  
  
 ## Changing the one-time password
-After receiving the one-time password via email, please first connect to the server via ssh. Upon your connection, after logging in, you will be asked to set a new password. **Please note that with the one-time password, you can not log in to the jupyterhub.**   
+After receiving the one-time password via email, please first connect to the server via ssh. Upon your connection, after logging in, you will be asked to set a new password.  
+**After you change your password, please send the admin a quick email to add you to the users' list. Without being added to the list, you can not access the jupyter environment from your browser.**  
 To connect the server, via ssh, you can use linux or mac terminal and enter `ssh <your_username>@cmserver02.mpie.de`. Please make sure of your vpn connection beforehand, if you are outside of the institute.  
 From Windows OS, you need to use Windows PowerShell or windows subsystem for linux (WSL). 
  
