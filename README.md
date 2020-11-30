@@ -7,7 +7,7 @@ This server has the aim to give MPIE members access to jupyter notebooks from th
  **<a href="https://jupyter.org/" target="_top">Jupyter notebook/lab</a>** is user-friendly environment to perform data analysis, visualization, simulation, etc **in your browser**. You can basically access a coding environment, command prompt, and visualization tool in the same environment. Via our server you will be able to analyze your experimental/simulation data in jupyter notebooks without the need to set up the environment, dependencies, etc. 
  
 ## Registration on the server  
-To register on the server, please email the admin. Then the instruction including a one-time password will be sent to you via email.  
+To register on the server, please email the admin (hassani[at].mpie.de). Then the instruction including a one-time password will be sent to you via email.  
  
 ## Changing the one-time password
 After receiving the one-time password via email, please first connect to the server via ssh. Upon your connection, after logging in, you will be asked to set a new password.  
